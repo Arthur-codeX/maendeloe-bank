@@ -1,0 +1,52 @@
+{
+  "transaction_history": [
+    {
+      "date": "2023-03-30T13:52:59.580Z",
+      "transaction_type": "Deposit",
+      "amount": "200",
+      "balance": 0,
+      "id": 1
+    },
+    {
+      "date": "2023-03-30T13:53:08.676Z",
+      "transaction_type": "Deposit",
+      "amount": "300",
+      "balance": 200,
+      "id": 2
+    },
+    {
+      "date": "2023-03-30T13:55:34.101Z",
+      "transaction_type": "Deposit",
+      "amount": "2000",
+      "balance": 500,
+      "id": 3
+    },
+    {
+      "date": "2023-03-30T13:55:44.032Z",
+      "transaction_type": "Withdraw",
+      "amount": "1000",
+      "balance": 2500,
+      "id": 4
+    },
+    {
+      "date": "2023-03-30T13:57:04.476Z",
+      "transaction_type": "Deposit",
+      "amount": "23",
+      "balance": 1500,
+      "id": 5
+    },
+    {
+      "date": "2023-03-30T13:57:35.654Z",
+      "transaction_type": "Withdraw",
+      "amount": "5000",
+      "balance": 1523,
+      "id": 6
+    }
+  ],
+  "balance": [
+    {
+      "amount": -3477,
+      "id": 0
+    }
+  ]
+}

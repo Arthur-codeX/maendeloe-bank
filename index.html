@@ -11,15 +11,53 @@
   <body>
     <div class="header">
       <h1>Maendeleo Banking</h1>
-      <h1 id="acc-balance">Balance:2000</h1>
+      <h1 id="acc-balance">Balance:</h1>
     </div>
     <div class="inputBox">
-      <input type="number" min="0" required placeholder="Enter Amount" />
+      <input
+        type="number"
+        id="input_box"
+        min="0"
+        required
+        placeholder="Enter Amount"
+      />
     </div>
     <div class="buttons">
-      <button type="button" class="btn btn-primary btn-lg">Primary</button>
-      <button type="button" class="btn btn-danger btn-lg">Danger</button>
+      <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        onclick="handleDeposit()"
+      >
+        Deposit
+      </button>
+      <button
+        type="button"
+        class="btn btn-danger btn-lg"
+        onclick="handleWithdraw()"
+      >
+        Withdraw
+      </button>
     </div>
-    <div class="table_section"></div>
+    <div class="table_section">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Date</th>
+            <th scope="col">Transaction Type</th>
+            <th scope="col">Balance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>12-May-2023</td>
+            <td>Withdraw</td>
+            <td>200000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="./js/js.js"></script>
   </body>
 </html>
