@@ -2,8 +2,15 @@ let acc_balance = document.getElementById("acc-balance");
 let input = document.getElementById("input_box");
 let prevBalance = 0;
 
+let tableData = document.getElementById("table_data");
+
 // Will get the balance from the json server
 // Set the account balance in our element
+
+document
+  .getElementById("withdrawBtn")
+  .addEventListener("click", handleWithdraw);
+
 function setBalance() {
   let url = "http://localhost:3000/balance/0";
   fetch(url, { method: "GET" })
@@ -108,7 +115,53 @@ function updateBalance(amount) {
     .then((data) => {
       console.log(data);
       setBalance();
+      populateTable();
+    });
+}
+
+// To populate the table from the database.
+// To identy the element where this data is going.
+// Get request to get the data from our back_end.
+// We need to create a html template.<we already have this template>.
+// We need to loop over it .
+// Inject the html to our table Data element.
+function populateTable() {
+  let url = "http://localhost:3000/transaction_history";
+
+  //   <tr>
+  //   <th scope="row">1</th>
+  //   <td>12-May-2023</td>
+  //   <td>2000</td>
+  //   <td>Withdraw</td>
+  //   <td>200000</td>
+  // </tr>
+
+  fetch(url, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      let el = "";
+      data = data.reverse();
+      for (let doc of data) {
+        el =
+          el +
+          `<tr>
+        <th scope="row">${doc.id}</th>
+        <td>${doc.date}</td>
+        <td>${doc.amount}</td>
+        <td>${doc.transaction_type}</td>
+        <td>${doc.balance}</td>
+      </tr>`;
+      }
+
+      // console.log(el);
+      tableData.innerHTML = el;
     });
 }
 
 setBalance();
+populateTable();
