@@ -97,11 +97,306 @@
       "amount": "120",
       "balance": 1200,
       "id": 14
+    },
+    {
+      "date": "2023-04-03T10:25:54.479Z",
+      "transaction_type": "Deposit",
+      "amount": "20000",
+      "balance": 1320,
+      "id": 15
+    },
+    {
+      "date": "2023-04-03T10:44:26.586Z",
+      "transaction_type": "Deposit",
+      "amount": "3000",
+      "balance": 0,
+      "transaction_code": "MBKDU4L4K3",
+      "id": 16
+    },
+    {
+      "date": "2023-04-03T10:44:54.425Z",
+      "transaction_type": "Deposit",
+      "amount": "200",
+      "balance": 3000,
+      "transaction_code": "MBKDB4B2YM",
+      "id": 17
+    },
+    {
+      "date": "2023-04-03T10:45:48.514Z",
+      "transaction_type": "Deposit",
+      "amount": "700",
+      "balance": 3200,
+      "transaction_code": "MBKDJC59D9",
+      "id": 18
+    },
+    {
+      "date": "2023-04-03T10:47:52.235Z",
+      "transaction_type": "Deposit",
+      "amount": "200",
+      "balance": 3900,
+      "transaction_code": "MBKDNEJ6FX",
+      "id": 19
+    },
+    {
+      "date": "2023-04-03T10:48:23.020Z",
+      "transaction_type": "Deposit",
+      "amount": "7000",
+      "balance": 0,
+      "transaction_code": "MBKD4GJUYC",
+      "id": 20
+    },
+    {
+      "date": "2023-04-03T10:48:39.917Z",
+      "transaction_type": "Deposit",
+      "amount": "800",
+      "balance": 7000,
+      "transaction_code": "MBKDN8DWQ4",
+      "id": 21
+    },
+    {
+      "date": "2023-04-03T10:49:10.008Z",
+      "transaction_type": "Withdraw",
+      "amount": "300",
+      "balance": 7800,
+      "transaction_code": "MBKWR1HEN3",
+      "id": 22
+    },
+    {
+      "date": "2023-04-03T10:49:24.731Z",
+      "transaction_type": "Withdraw",
+      "amount": "3000",
+      "balance": 7500,
+      "transaction_code": "MBKWYR6EBB",
+      "id": 23
+    },
+    {
+      "date": "2023-04-03T10:50:28.427Z",
+      "transaction_type": "Deposit",
+      "amount": "700",
+      "balance": 0,
+      "transaction_code": "MBKDLAZAVK",
+      "id": 24
+    },
+    {
+      "date": "2023-04-03T10:52:48.350Z",
+      "transaction_type": "Deposit",
+      "amount": "200000",
+      "balance": 0,
+      "transaction_code": "MBKDNAX8Q4",
+      "id": 25
+    },
+    {
+      "date": "2023-04-03T10:52:59.183Z",
+      "transaction_type": "Deposit",
+      "amount": "400",
+      "balance": 200000,
+      "transaction_code": "MBKDNDG63W",
+      "id": 26
+    },
+    {
+      "date": "2023-04-03T10:54:50.233Z",
+      "transaction_type": "Deposit",
+      "amount": "3444",
+      "balance": 200400,
+      "transaction_code": "MBKD95BBLV",
+      "id": 27
+    },
+    {
+      "date": "2023-04-03T10:55:11.032Z",
+      "transaction_type": "Withdraw",
+      "amount": "19000",
+      "balance": 203844,
+      "transaction_code": "MBKW8QWKN5",
+      "id": 28
+    },
+    {
+      "date": "2023-04-03T10:58:12.136Z",
+      "transaction_type": "Deposit",
+      "amount": "1000000",
+      "balance": 0,
+      "transaction_code": "MBKD3Z7DMP",
+      "id": 29
+    },
+    {
+      "date": "2023-04-03T10:58:26.998Z",
+      "transaction_type": "Withdraw",
+      "amount": "2000000",
+      "balance": 1000000,
+      "transaction_code": "MBKWRNPHET",
+      "id": 30
+    },
+    {
+      "date": "2023-04-03T10:58:43.406Z",
+      "transaction_type": "Withdraw",
+      "amount": "300",
+      "balance": -1000000,
+      "transaction_code": "MBKWK9VMN1",
+      "id": 31
+    },
+    {
+      "date": "2023-04-03T11:03:57.116Z",
+      "transaction_type": "Deposit",
+      "amount": "2000",
+      "balance": 0,
+      "transaction_code": "KJD7DEBQ91",
+      "id": 32
+    },
+    {
+      "date": "2023-04-03T11:13:37.706Z",
+      "transaction_type": "Deposit",
+      "amount": "200",
+      "balance": 0,
+      "transaction_code": "NBBD1TAF27",
+      "id": 33
+    },
+    {
+      "date": "2023-04-03T11:14:55.948Z",
+      "transaction_type": "Deposit",
+      "amount": "2000",
+      "balance": 0,
+      "transaction_code": "MBKDC3P2F4",
+      "id": 34
+    },
+    {
+      "date": "2023-04-03T11:15:05.887Z",
+      "transaction_type": "Withdraw",
+      "amount": "300",
+      "balance": 2000,
+      "transaction_code": "MBKW6CB7D7",
+      "id": 35
+    },
+    {
+      "date": "2023-04-03T11:15:16.893Z",
+      "transaction_type": "Deposit",
+      "amount": "700",
+      "balance": 1700,
+      "transaction_code": "MB6YT717NJ",
+      "id": 36
+    },
+    {
+      "date": "2023-04-03T11:15:31.083Z",
+      "transaction_type": "Withdraw",
+      "amount": "800",
+      "balance": 2400,
+      "transaction_code": "CAFMRH39V5",
+      "id": 37
+    },
+    {
+      "date": "2023-04-03T11:20:42.775Z",
+      "transaction_type": "Deposit",
+      "amount": "20",
+      "balance": 0,
+      "transaction_code": null,
+      "id": 38
+    },
+    {
+      "date": "2023-04-03T11:20:50.155Z",
+      "transaction_type": "Withdraw",
+      "amount": "200",
+      "balance": 20,
+      "transaction_code": null,
+      "id": 39
+    },
+    {
+      "date": "2023-04-03T11:22:41.667Z",
+      "transaction_type": "Deposit",
+      "amount": "2300",
+      "balance": 0,
+      "transaction_code": "QRACWVHG1Y",
+      "id": 40
+    },
+    {
+      "date": "2023-04-03T11:31:21.959Z",
+      "transaction_type": "Deposit",
+      "amount": "30000",
+      "balance": 0,
+      "transaction_code": "MBKD9U8C2HY",
+      "id": 41
+    },
+    {
+      "date": "2023-04-03T11:31:32.010Z",
+      "transaction_type": "Withdraw",
+      "amount": "400",
+      "balance": 30000,
+      "transaction_code": "MBKW1V1B8CM",
+      "id": 42
+    },
+    {
+      "date": "2023-04-03T11:32:33.724Z",
+      "transaction_type": "Deposit",
+      "amount": "3000",
+      "balance": 0,
+      "transaction_code": "MBKD5B8H3PF",
+      "id": 43
+    },
+    {
+      "date": "2023-04-03T11:32:43.739Z",
+      "transaction_type": "Withdraw",
+      "amount": "400",
+      "balance": 3000,
+      "transaction_code": "MBKW4E1D7LS",
+      "id": 44
+    },
+    {
+      "date": "2023-04-03T11:32:54.854Z",
+      "transaction_type": "Deposit",
+      "amount": "7000",
+      "balance": 2600,
+      "transaction_code": "MBKD3Z1U7AA",
+      "id": 45
+    },
+    {
+      "date": "2023-04-03T11:33:04.259Z",
+      "transaction_type": "Withdraw",
+      "amount": "600",
+      "balance": 9600,
+      "transaction_code": "MBKW1Q8T9AJ",
+      "id": 46
+    },
+    {
+      "date": "2023-04-03T11:37:15.877Z",
+      "transaction_type": "Deposit",
+      "amount": "10000",
+      "balance": 0,
+      "transaction_code": "MBKD7Q2N3GC",
+      "id": 47
+    },
+    {
+      "date": "2023-04-03T11:37:25.388Z",
+      "transaction_type": "Deposit",
+      "amount": "70000",
+      "balance": 10000,
+      "transaction_code": "MBKD8Q2Z7ZT",
+      "id": 48
+    },
+    {
+      "date": "2023-04-03T11:37:33.496Z",
+      "transaction_type": "Withdraw",
+      "amount": "6300",
+      "balance": 80000,
+      "transaction_code": "MBKW4P6N1AG",
+      "id": 49
+    },
+    {
+      "date": "2023-04-03T11:37:45.749Z",
+      "transaction_type": "Withdraw",
+      "amount": "7356",
+      "balance": 73700,
+      "transaction_code": "MBKW1N7A2FV",
+      "id": 50
+    },
+    {
+      "date": "2023-04-03T11:38:02.133Z",
+      "transaction_type": "Deposit",
+      "amount": "556",
+      "balance": 66344,
+      "transaction_code": "MBKD9F3F2LS",
+      "id": 51
     }
   ],
   "balance": [
     {
-      "amount": 1320,
+      "amount": 66900,
       "id": 0
     }
   ]

@@ -7,9 +7,8 @@ let tableData = document.getElementById("table_data");
 // Will get the balance from the json server
 // Set the account balance in our element
 
-document
-  .getElementById("withdrawBtn")
-  .addEventListener("click", handleWithdraw);
+document.getElementById("withdrawBtn").addEventListener("click", handleWithdraw);
+document.getElementById("depositBtn").addEventListener("click", handleDeposit);
 
 function setBalance() {
   let url = "http://localhost:3000/balance/0";
@@ -21,7 +20,22 @@ function setBalance() {
     });
 }
 
-//Get the dom element
+function generateTransactionCode(type) {
+  const letters = "ABCDEFGHJKLMNPQRSTUVWXYZ";
+  let code = `MBK${type}`;
+  for (let i = 0; i < 4; i++) {
+    if (i < 3) {
+      let num = Math.floor(Math.random() * 9) + 1;
+      code += num;
+    }
+    let letter = letters[Math.floor(Math.random() * letters.length)];
+    code += letter;
+  }
+  return code;
+}
+  
+
+// Get the dom element
 // We need to get the deposit amount
 // Check to confirm if amount is correct.
 // Post Request to deposit the amount
@@ -38,6 +52,7 @@ function handleDeposit() {
     transaction_type: "Deposit",
     amount: amount,
     balance: prevBalance,
+    transaction_code: generateTransactionCode('D')
   };
 
   data = JSON.stringify(data);
@@ -73,6 +88,7 @@ function handleWithdraw() {
     transaction_type: "Withdraw",
     amount: amount,
     balance: prevBalance,
+    transaction_code: generateTransactionCode('W')
   };
 
   data = JSON.stringify(data);
@@ -155,6 +171,7 @@ function populateTable() {
         <td>${doc.amount}</td>
         <td>${doc.transaction_type}</td>
         <td>${doc.balance}</td>
+        <td>${doc.transaction_code}</td>
       </tr>`;
       }
 
