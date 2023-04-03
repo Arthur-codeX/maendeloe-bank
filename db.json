@@ -408,11 +408,27 @@
       "balance": 300,
       "transaction_code": "MBKW6T1D8HN",
       "id": 53
+    },
+    {
+      "date": "2023-04-03T12:32:45.956Z",
+      "transaction_type": "Deposit",
+      "amount": "7000",
+      "balance": -400,
+      "transaction_code": "MBKD1Q2S9RC",
+      "id": 54
+    },
+    {
+      "date": "2023-04-03T13:03:01.069Z",
+      "transaction_type": "Deposit",
+      "amount": "2000",
+      "balance": 0,
+      "transaction_code": "MBKD3C7K5NY",
+      "id": 55
     }
   ],
   "balance": [
     {
-      "amount": -400,
+      "amount": 2000,
       "id": 0
     }
   ]
